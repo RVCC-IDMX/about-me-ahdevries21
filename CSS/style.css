@@ -1,0 +1,37 @@
+body{
+    background-color:#67A3A3;
+    color:#F0B4Af;
+    font-family: Roboto;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family:"Kaushan Script";
+    font-size:50pt
+}
+
+header{
+    text-align:center;
+}
+
+#hero,footer{
+    background-color:#8CA387;
+    text-align:center;
+    padding:10px;
+    color:#A3EFF0;
+    border:2px solid #C3F0BB;
+}
+
+#hero img{
+    width:300px;
+}
+
+#bio{
+    text-align:center;
+}
+
+#superhero img{
+    width:300px;
+    background-color:#8CA387;
+    padding:10px;
+    border:2px solid #C3F0BB;
+}
