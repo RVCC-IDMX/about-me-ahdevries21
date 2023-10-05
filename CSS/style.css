@@ -6,7 +6,8 @@ body{
 
 h1,h2,h3,h4,h5,h6{
     font-family:"Kaushan Script";
-    font-size:50pt
+    font-size:50pt;
+    text-align:center;
 }
 
 header{
@@ -34,4 +35,43 @@ header{
     background-color:#8CA387;
     padding:10px;
     border:2px solid #C3F0BB;
+}
+
+#Hobbies{
+    text-align: left;
+    background-color:#8CA387;
+    text-align:left;
+    padding: 2px;
+    color:#ffccc7;
+    border:2px solid #C3F0BB;
+}
+#Hobbies ul li:nth-child(odd) {
+    color:#A3EFF0;
+    font-style:oblique;
+    font-weight:bold;
+}
+
+#Hobbies ul li:nth-child(even) {
+    color:#ffccc7;
+    font-weight:bold;
+    font-style:italic;
+    
+}
+ul{
+    background-color:#67A3A3;
+    padding:20px;
+    border: 4px dotted #ffccc7;
+    
+}
+li{ 
+    background: color pink;
+    padding:20 px;
+}
+ol li{
+    background:#67A3A3;
+    padding:5px;
+}
+ul li{
+    background-color: #67A3A3;
+    padding:5px;
 }
