@@ -46,22 +46,22 @@ header{
     border: 6px dotted #C3F0BB;
 }
 #Hobbies ul li:nth-child(odd) {
-    color: #C3F0BB;
+    color: #125353;
     font-style:oblique;
     font-weight:bold;
+    background-color: #ffccc7;
 }
 
 #Hobbies ul li:nth-child(even) {
-    color:#ffccc7;
+    color:#C3F0BB;
     font-weight:bold;
     font-style:italic;
+    background-color: #8CA387;
     
 }
 ul{
-    background-color:#A3EFF0;
+    background-color:#125353;
     padding:20px;
-    border: 6px dotted #67A3A3;
-    
 }
 li{ 
     background: color #A3EFF0;
@@ -72,8 +72,9 @@ ol li{
     padding: 2px;
 }
 ul li{
-    background-color: #67A3A3;
+    background-color: #125353;
     padding:2px;
+
 }
 
 /*Gallery Section*/
@@ -92,3 +93,40 @@ ul li{
     text-align:center;
     color:#ffccc7;
 }
+/*article section*/
+ #lit{
+    Border: 6px dotted #ffccc7;
+    background-color:#8CA387;
+ }
+
+ #lit div{
+    padding:2rem;
+    max-width:40rem;
+    margin:0 auto;
+    
+ }
+ #lit div p{
+    padding:0.3rem 0;
+    text-align:left;
+    max-width:100%;
+    
+ }
+ #lit div p:first-letter{
+    color:#A3EFF0;
+    float:left;
+    font-size: 3em;
+    font-family: "Kaushan Script";
+    padding: 0.25em;
+    padding-right:0.50em;
+    margin:.05em;
+    line-height:.65;
+    border:3px solid #ffccc7;
+    background-color:#125353;
+    text-shadow:5px 5px 3px rgba(0,0,0,.5);
+    box-shadow:5px 5px 3px rgba(0,0,0,.5);
+    text-align:center;
+    font-weight:bold;
+    border-top-left-radius: .2em;
+    border-bottom-right-radius:.2em;
+    clear:both;
+ }
