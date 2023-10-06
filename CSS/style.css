@@ -46,7 +46,7 @@ header{
     border:2px solid #C3F0BB;
 }
 #Hobbies ul li:nth-child(odd) {
-    color:#A3EFF0;
+    color: #C3F0BB;
     font-style:oblique;
     font-weight:bold;
 }
@@ -58,20 +58,20 @@ header{
     
 }
 ul{
-    background-color:#67A3A3;
+    background-color:#A3EFF0;
     padding:20px;
-    border: 4px dotted #ffccc7;
+    border: 6px dotted #67A3A3
     
 }
 li{ 
-    background: color pink;
+    background: color #A3EFF0;
     padding:20 px;
 }
 ol li{
     background:#67A3A3;
-    padding:5px;
+    padding: 2px;
 }
 ul li{
     background-color: #67A3A3;
-    padding:5px;
+    padding:2px;
 }
