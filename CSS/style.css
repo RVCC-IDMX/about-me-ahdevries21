@@ -129,7 +129,7 @@ ul li{
 
 #video {
     background-color:#125353;
-    border:7px dotted #ffccc7;
+    border:7px dotted #A3EFF0;
     max-width: 100%;
     columns: 1;
     flex-direction: column;
@@ -140,7 +140,7 @@ ul li{
 /*article section*/
  #lit{
     Border: 6px dotted #ffccc7;
-    background-color:#8CA387;
+    background-color:#125353;
  }
 
  #lit div{
@@ -165,7 +165,7 @@ ul li{
     margin:.05em;
     line-height:.65;
     border:3px solid #ffccc7;
-    background-color:#125353;
+    background-color:#8CA387;
     text-shadow:5px 5px 3px rgba(0,0,0,.5);
     box-shadow:5px 5px 3px rgba(0,0,0,.5);
     text-align:center;
@@ -179,11 +179,55 @@ ul li{
  #formelements {
     display:grid;
     text-align:left;
+    row-gap:0.5em;
  }
+ #contact {
+    padding:1rem;
+    max-width:600px;
+    margin:2rem auto;
+    align-items:center;
+    background-color: #8CA387;
+    border:7px dotted #A3EFF0;
+ }
+ fieldset {
+    border: 7px solid #ffccc7;
+    margin-top:1em;
+    margin-bottom:1em;
+    background-color: #125353;
+    border-radius:.5em;
+}
+ legend{
+    background-color:#ffccc7;
+    padding:0.5em;
+    color:#125353;
+    font-style: oblique;
+}
 
-
-
-
+#contact input, #contact textarea, #contact select, #contact button {
+    padding:0.5em;
+    font-size:1em;
+    font-familt:"Roboto";
+}
+#contact ul {
+    list-style:none;
+    padding:0px;
+}
+#contact li {
+    margin:1 rem;
+}
+#contact button {
+    background-color:#A3EFF0;
+    border-radius:0.5em;
+    color:#125353;
+    padding:0.5em;
+    border:1px solid #125353;
+    max-width:400px;
+    width:50%;
+    justify-self:center;
+}
+#contact textarea {
+    font-family:"Roboto";
+}
 
 /* Tablet Size */
 @media screen and (min-width: 40em) {
