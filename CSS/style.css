@@ -206,7 +206,7 @@ ul li{
 #contact input, #contact textarea, #contact select, #contact button {
     padding:0.5em;
     font-size:1em;
-    font-familt:"Roboto";
+    font-family:"Roboto";
 }
 #contact ul {
     list-style:none;
