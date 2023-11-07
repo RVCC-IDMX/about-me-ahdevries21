@@ -39,10 +39,22 @@ main {
 }
 
 /* navigation list */
-
+.navbar-links li{
+    list-style:none;
+    display:block;
+    padding:0.5em 0;
+}
 
 /* style all a tags in header  and then on hover */
-
+.navbar-links a{
+    color:#ffccc7;
+    background-color:#125353;
+    font-size:1.5rem;
+    padding:1rem 1rem;
+    letter-spacing: 2px;
+    text-decoration:none;
+    display:inline-block;
+}
 
 
 
