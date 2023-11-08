@@ -21,9 +21,10 @@ main {
     color:#ffccc7;
     display:flex;
     flex-direction: column;
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
     padding: 1rem;
+
 }
 
 /* logo */
@@ -32,25 +33,25 @@ main {
     align-items:center;
 }
 .logo img{
-    height:6vw;
-    width:6vw;
+    height:5vw;
+    width:5vw;
 }
 .logo h1 {
-    font-size:1.2em;
+    font-size:1.5em;
 }
 
 /* navigation list */
 .navbar-links li{
     list-style:none;
     display:block;
-    padding:0.5em 0;
+    padding:0.5em ;
 }
 
 /* style all a tags in header  and then on hover */
 .navbar-links a{
     color:#ffccc7;
     background-color:#125353;
-    font-size:1.5rem;
+    font-size:2rem;
     padding:1rem 1rem;
     letter-spacing: 2px;
     text-decoration:none;
@@ -61,6 +62,22 @@ main {
     filter: invert(1);
     border-radius:10px;
     outline:none;
+   
 }
 
 /* media query for non-mobile nav bar min-width set to width of nav elements such that no text wraps */
+@media screen and (min-width:60rem){
+    .navbar-links{
+        display:flex;
+        justify-content: space-between;
+    }
+    .navbar{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .navbar ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+}

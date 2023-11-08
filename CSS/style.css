@@ -20,11 +20,11 @@ header{
 
 /*hero section*/
 #hero,footer{
-    background-color:#8CA387;
+    background-color:#125353;
     text-align:center;
     padding:10px;
     color:#A3EFF0;
-    border:2px solid #C3F0BB;
+    border:7px dotted #C3F0BB;
 }
 
 #hero img{
