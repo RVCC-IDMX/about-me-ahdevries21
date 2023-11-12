@@ -30,6 +30,12 @@ header{
 #hero img{
     width:300px;
 }
+#art a{
+    color:#ffccc7;
+}
+#art a:hover {
+    color:#A3EFF0;
+}
 
 /*bio section*/
 #bio{
@@ -40,7 +46,7 @@ header{
     width:300px;
     background-color:#8CA387;
     padding:10px;
-    border:2px solid #C3F0BB;
+    border:5px dotted #C3F0BB;
 }
 
 /*hobbies section*/
@@ -57,6 +63,7 @@ section#Hobbies {
     padding: 2px;
     color:#ffccc7;
     border: 6px dotted #C3F0BB;
+    
 }
 
 #Hobbies ul li:nth-child(odd) {
@@ -64,6 +71,9 @@ section#Hobbies {
     font-style:oblique;
     font-weight:bold;
     background-color: #ffccc7;
+    padding:10px;
+    text-align: center;
+    
 }
 
 #Hobbies ul li:nth-child(even) {
@@ -71,11 +81,14 @@ section#Hobbies {
     font-weight:bold;
     font-style:italic;
     background-color: #8CA387; 
+    padding:10px;
+    text-align:center;
 }
 
 ul{
     background-color:#125353;
     padding:20px;
+    list-style: none;
 }
 
 li{ 
