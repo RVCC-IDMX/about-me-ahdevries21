@@ -8,6 +8,7 @@ h1,h2,h3,h4,h5,h6{
     font-family:"Kaushan Script";
     font-size:50pt;
     text-align:center;
+    margin:0;
 }
 
 h2{
@@ -31,7 +32,7 @@ header{
     width:300px;
 }
 #art a{
-    color:#ffccc7;
+    color:#ffccc7;l
 }
 #art a:hover {
     color:#A3EFF0;
@@ -39,6 +40,8 @@ header{
 
 /*bio section*/
 #bio{
+    background-color: #125353;
+    border: 7px dotted #C3F0BB;
     text-align:center;
 }
 
@@ -122,6 +125,9 @@ ul li{
 #gallery figure{
     text-align:center;
     color:#ffccc7;
+}
+#gallery figcaption {
+    text-align: center;
 }
 
 /* Video */
@@ -255,6 +261,7 @@ ul li{
         align-items: center;
         font-size:2rem;
         margin-left: 1rem;
+        text-align:center;
     }
 
     figure img{

@@ -7,34 +7,30 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
-    <link href="CSS/style.css" rel="stylesheet">
+    <link href =CSS/style.css rel="stylesheet">
     <link href="CSS/nav.css" rel="stylesheet">
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
 </head>
 <body>
     <header>
-        <nav class="navbar">
-            <div class="logo">
-                <img src="img/About Me Website Logo.svg" class="logo-img" alt="website logo">
-                <h1>Web Dev I</h1>
-            </div>
-            <div class="navbar-links">
-                <input type="checkbox" id="nav-toggle" class="nav-toggle">
-                <ul id ="nav-bar">
-                    <li><a href="#bio">Bio</a></li>
-                    <li><a href="#gallery">Gallery</a></li>
-                    <li><a href="#lit">Blog</a></li>
-                    <li><a href="#contact">Contact Me</a></li>
-                </ul>
-            </div>
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="img/About Me Website Logo.svg" class="logo-img" alt="website-logo">
+                <div class="navbar-links">
+                        <ul id ="nav-bar">
+                            <li><a href="#bio">Bio</a></li>
+                            <li><a href="#gallery">Gallery</a></li>
+                            <li><a href="#lit">Blog</a></li>
+                            <li><a href="#contact">Contact Me</a></li>
+                        </ul>
+                </div>
+            </nav>
         </nav>
-        <label for="nav-toggle" class="nav-toggle-label">
-            <span>X</span>
-        </label>
     </header>
     <main>
         <section id="hero">
             <!---Hero Section-->
+            <h4>Welcome!</h4>
             <img src="img/avataaars.png" alt="My Avatar Picture">
             <div>
                 <p>Abigail DeVries</p>
@@ -42,15 +38,10 @@
             </div>
             <!--Hero Section-->
         </section>
+        <br/>
         <section id="bio">
-           <div>
-                <p>I want to be...</p>    
-           </div>
-
-           <div>
-            <p>A designer</p>
-            </div>
-
+            <h4>All About Me</h4>
+            <p>I want to be a designer</p>    
             <div>
                 <p>A small business owner</p>
             </div>
@@ -65,7 +56,7 @@
             <p>My favorite Superhero is Spider-man. He was the first superhero that my Dad introduced me to.
                 I love his powers as well; my favorite is his spider-sense, which alerts him of danger. </p>
                 <div id="superhero">
-                    <img src="https://wallup.net/wp-content/uploads/2019/09/748832-spider-man-superhero-marvel-spider-man-action-spiderman.jpg">
+                    <img src="https://wallup.net/wp-content/uploads/2019/09/748832-spider-man-superhero-marvel-spider-man-action-spiderman.jpg" alt="spiderman">
                     <p> There he is!</p>
                 </div>
            </div>
@@ -82,7 +73,8 @@
                 went into New York City to see the big tree at Rockafeller Center! It was beautiful!
             </p>
            </div>
-        
+    </section>
+<br/>
         <section id="Hobbies">
             <h2>Hobbies</h2>
             <ul>
@@ -119,8 +111,10 @@
 <br/>
 <section id="Movie">
 <h2>Video</h2>
-<caption><strong>God's Creation: Nature Photo's By Abigail DeVries</strong></caption>
-<br>
+<caption>
+    <strong>God's Creation: Nature Photo's By Abigail DeVries</strong>
+</caption>
+<br/>
 <iframe id="video" width="854" height="480" src="https://www.youtube.com/embed/9Oj8bYcdiqQ" 
 title="God&#39;s Creation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
 encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -222,7 +216,7 @@ encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></ifr
                                     <label for="message-yes">Yes, a reply would be nice.</label>
                                 </li>
                                 <li>
-                                    <input type="radio" id="message-no"name="reply" value="No reply please.">
+                                    <input type="radio" id="message-no" name="reply" value="No reply please.">
                                    <label for="message-no">No, thanks.</label>
                                 </li>
                             </ul>
@@ -233,14 +227,7 @@ encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></ifr
             </fieldset>
         </form>  
 </section>
-
-
-
-
-
-      
-    </main>
-
+</main>
     <footer>
        &copy;2023-Abigail DeVries
     </footer>
