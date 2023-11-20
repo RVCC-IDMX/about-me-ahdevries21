@@ -32,7 +32,7 @@ header{
     width:300px;
 }
 #art a{
-    color:#ffccc7;l
+    color:#ffccc7;
 }
 #art a:hover {
     color:#A3EFF0;
@@ -41,7 +41,7 @@ header{
 /*bio section*/
 #bio{
     background-color: #125353;
-    border: 7px dotted #C3F0BB;
+    border: 7px dotted #ffccc7;
     text-align:center;
 }
 
@@ -64,7 +64,7 @@ section#Hobbies {
     background-color:#8CA387;
     text-align:left;
     padding: 2px;
-    color:#ffccc7;
+    color:#125353;
     border: 6px dotted #C3F0BB;
     
 }
@@ -145,6 +145,12 @@ ul li{
     justify-content:center;
     margin-bottom:0em;
 }
+#Movie h2 {
+    color:#125353;
+}
+#Movie strong {
+    color:#125353;
+}
 
 #video {
     background-color:#125353;
@@ -208,6 +214,14 @@ ul li{
     background-color: #8CA387;
     border:7px dotted #A3EFF0;
  }
+ #contact h2{
+    color:#125353;
+ }
+ #contact p{
+    text-align:center;
+    font-size:15pt;
+    color:#125353
+ }
  fieldset {
     border: 7px solid #ffccc7;
     margin-top:1em;
@@ -233,6 +247,7 @@ ul li{
 }
 #contact li {
     margin:1 rem;
+    background-color: #125353;
 }
 #contact button {
     background-color:#A3EFF0;

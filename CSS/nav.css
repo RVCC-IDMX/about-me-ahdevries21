@@ -13,7 +13,8 @@ body{
 /* add some padding back to rest of page */
 main {
     padding:2vw;
-}   
+}  
+
 /* navbar */
 .navbar {
     background-color:#8CA387;
@@ -51,8 +52,9 @@ main {
 
 /* style all a tags in header  and then on hover */
 .navbar-links a{
-    color:#ffccc7;
+    color:#125353;
     background-color:#8CA387;
+    font-weight: bolder;
     font-size:1.5rem;
     padding:1rem 1rem;
     letter-spacing: 2px;
@@ -68,8 +70,6 @@ main {
     color:#ffccc7;
     background-color:#125353; 
 }
-
-
 
 /* media query for non-mobile nav bar min-width set to width of nav elements such that no text wraps */
 @media screen and (min-width:60rem){
