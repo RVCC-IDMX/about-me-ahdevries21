@@ -27,7 +27,8 @@ Hex:
 One of the primary reasons for choosing this color scheme was using pink, my favorite color. But I also loved how the other colors complemented each other. My favorite one of these colors was in the photo gallery. I loved how the background color brought out the pink and lit the dotted border. One thing to notice when using the tea green background is that pink was initially used as the text header. But I then changed it to the Eden color because the color choices affected people with accessibility. I love how the colors make some sections pop up and work well together.
 
 #Citations
-All work on this website is original.
+Navigation Bar
+All other work on this website is original.
 
 #License
 Copyright would be best for me because it will protect any material that I create in the future. A Creative Commons license would be best if others want to use my work and permit them to use it if they attribute me.
