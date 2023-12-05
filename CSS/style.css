@@ -24,7 +24,7 @@ header{
     background-color:#125353;
     text-align:center;
     padding:10px;
-    color:#A3EFF0;
+    color:#ffccc7;
     border:7px dotted #C3F0BB;
 }
 
@@ -38,19 +38,6 @@ header{
     color:#A3EFF0;
 }
 
-/*bio section*/
-#bio{
-    background-color: #125353;
-    border: 7px dotted #ffccc7;
-    text-align:center;
-}
-
-#superhero img{
-    width:300px;
-    background-color:#8CA387;
-    padding:10px;
-    border:5px dotted #C3F0BB;
-}
 
 /*hobbies section*/
 section#Hobbies {
