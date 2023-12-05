@@ -20,7 +20,7 @@ header{
 }
 
 /*hero section*/
-#hero,footer{
+#bio,footer{
     background-color:#125353;
     text-align:center;
     padding:20px;
@@ -28,7 +28,7 @@ header{
     border:7px dotted #C3F0BB;
 }
 
-#hero img{
+#bio img{
     width:300px;
 }
 #art a{
