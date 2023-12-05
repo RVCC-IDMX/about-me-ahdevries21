@@ -27,6 +27,14 @@ header{
     color:#ffccc7;
     border:7px dotted #C3F0BB;
 }
+footer img {
+    width:20px;
+    align-items: center;
+}
+
+footer a {
+    color:#ffccc7;
+}
 
 #bio img{
     width:300px;
@@ -48,11 +56,11 @@ section#Hobbies {
 
 #Hobbies{
     text-align: left;
-    background-color:#8CA387;
+    background-color:#ffccc7;
     text-align:left;
-    padding: 2px;
+    padding: 20px;
     color:#125353;
-    border: 6px dotted #C3F0BB;
+    border: 6px dotted #125353;
     
 }
 
@@ -60,7 +68,7 @@ section#Hobbies {
     color: #125353;
     font-style:oblique;
     font-weight:bold;
-    background-color: #ffccc7;
+    background-color: #67A3A3;
     padding:10px;
     text-align: center;
     
