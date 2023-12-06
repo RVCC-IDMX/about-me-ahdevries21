@@ -113,6 +113,7 @@ ul li{
 
 #gallery img{
     Max-width:100%;
+    border: 5px solid #A3EFF0;
 }
 
 #gallery img p
@@ -123,12 +124,13 @@ ul li{
 }
 #gallery figcaption {
     text-align: center;
+    font-size: 2
 }
 
 /* Video */
 #Movie {
-    background-color:#8CA387;
-    border:7px dotted #C3F0BB;
+    background-color:#ffccc7;
+    border:7px dotted #125353;
     align-items:center;
     padding-bottom: 20px;
     columns: 2;
