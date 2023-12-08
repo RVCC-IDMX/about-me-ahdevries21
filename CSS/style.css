@@ -2,11 +2,12 @@ body{
     background-color:#67A3A3;
     color:#ffccc7; 
     font-family: Roboto;
+    padding:50px;
 }
 
 h1,h2,h3,h4,h5,h6{
     font-family:"Kaushan Script";
-    font-size:50pt;
+    font-size:40pt;
     text-align:center;
     margin:0;
 }
@@ -108,7 +109,7 @@ ul li{
 #gallery{
     border:2px solid #A3EFF0;
     background-color:#125353;
-    border: 6px dotted #ffccc7;
+    border: 6px dotted #C3F0BB;
 }
 
 #gallery img{
@@ -196,6 +197,13 @@ ul li{
     border-bottom-right-radius:.2em;
     clear:both;
  }
+/* Images */
+#background-repeat {
+    background:#8CA387;
+    background-image:url("img/AboutMe.png")
+}
+
+
 
  /* Contact Form */
  #formelements {

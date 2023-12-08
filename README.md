@@ -28,9 +28,12 @@ One of the primary reasons for choosing this color scheme was using pink, my fav
 
 #Citations
 ##Navigation Bar
-##Blog Article
+##Blog Article Sources
+    Cope, Sara. "Backgrouns." CSS-Tricks, 31 Aug. 2011, css-tricks.com/almanac/properties/b/background/. Accessed 8 Dec. 2023.
     
+    "CSS Multiple Backgrounds." W3 Schools, 8 Dec. 2023, www.w3schools.com/css/css3_backgrounds.asp. Accessed 8 Dec. 2023.
 
+    Shaheb, Joy. "Every CSS Background Property Illustrated and Explained with Code Examples." FreeCodeCamp, 2 Apr. 2021, www.freecodecamp.org/news/learn-css-background-properties/#background-size. Accessed 8 Dec. 2023.
 
 All other work on this website is original.
 

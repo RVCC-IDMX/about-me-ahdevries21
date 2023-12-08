@@ -76,6 +76,12 @@ main {
     color:#ffccc7;
     background-color:#125353; 
 }
+.checkButton{
+    font-size:30px;
+    color:white;
+    float:right;
+    
+}
 
 /* media query for non-mobile nav bar min-width set to width of nav elements such that no text wraps */
 @media screen and (min-width:60rem){
