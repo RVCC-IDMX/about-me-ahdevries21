@@ -268,11 +268,14 @@ ul li{
 
 /* Tablet Size */
 @media screen and (min-width: 40em) {
+    #lit{
+        text-align:center;
+    }
+    
     figure{
         display:grid;
         grid-template-columns: 2fr 1fr;
     }
-
     figcaption{
         display: flex;
         justify-content: center;
