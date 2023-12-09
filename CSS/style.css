@@ -197,11 +197,10 @@ ul li{
     border-bottom-right-radius:.2em;
     clear:both;
  }
-/* Images */
-#background-repeat {
-    b
-}
-
+ #lit img{
+    border:5px solid #A3EFF0;
+    max-width:100%;
+ }
 
 
  /* Contact Form */
@@ -291,6 +290,10 @@ ul li{
        max-width:100%;
        columns: 20rem; 
     }
+    #lit img{
+        width:330px;
+
+    }
 
     #movie {
         Display:flex;
@@ -319,5 +322,8 @@ ul li{
     figure {
         display: block;
         font-size: 30pt;
+    }
+    #lit img{
+        width:400px;
     }
 }
