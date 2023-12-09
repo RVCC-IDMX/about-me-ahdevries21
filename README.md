@@ -30,11 +30,12 @@ Hex:
 One of the primary reasons for choosing this color scheme was using pink, my favorite color. But I also loved how the other colors complemented each other. My favorite one of these colors was in the photo gallery. I loved how the background color brought out the pink and lit the dotted border. One thing to notice when using the tea green background is that pink was initially used as the text header. But I then changed it to the Eden color because the color choices affected people with accessibility. I love how the colors make some sections pop up and work well together.
 
 #Citations
+
 ##Navigation Bar
     https://www.youtube.com/watch?v=lSuiRdGtVU8
     
 ##Blog Article Sources
-    Cope, Sara. "Backgrouns." CSS-Tricks, 31 Aug. 2011, css-tricks.com/almanac/properties/b/background/. Accessed 8 Dec. 2023.
+    Cope, Sara. "Backgrounds." CSS-Tricks, 31 Aug. 2011, css-tricks.com/almanac/properties/b/background/. Accessed 8 Dec. 2023.
     
     "CSS Multiple Backgrounds." W3 Schools, 8 Dec. 2023, www.w3schools.com/css/css3_backgrounds.asp. Accessed 8 Dec. 2023.
 
