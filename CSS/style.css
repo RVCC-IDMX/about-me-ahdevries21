@@ -2,11 +2,12 @@ body{
     background-color:#67A3A3;
     color:#ffccc7; 
     font-family: Roboto;
+    padding:50px;
 }
 
 h1,h2,h3,h4,h5,h6{
     font-family:"Kaushan Script";
-    font-size:50pt;
+    font-size:40pt;
     text-align:center;
     margin:0;
 }
@@ -20,15 +21,23 @@ header{
 }
 
 /*hero section*/
-#hero,footer{
+#bio,footer{
     background-color:#125353;
     text-align:center;
-    padding:10px;
-    color:#A3EFF0;
+    padding:20px;
+    color:#ffccc7;
     border:7px dotted #C3F0BB;
 }
+footer img {
+    width:20px;
+    align-items: center;
+}
 
-#hero img{
+footer a {
+    color:#ffccc7;
+}
+
+#bio img{
     width:300px;
 }
 #art a{
@@ -38,19 +47,6 @@ header{
     color:#A3EFF0;
 }
 
-/*bio section*/
-#bio{
-    background-color: #125353;
-    border: 7px dotted #ffccc7;
-    text-align:center;
-}
-
-#superhero img{
-    width:300px;
-    background-color:#8CA387;
-    padding:10px;
-    border:5px dotted #C3F0BB;
-}
 
 /*hobbies section*/
 section#Hobbies {
@@ -61,11 +57,11 @@ section#Hobbies {
 
 #Hobbies{
     text-align: left;
-    background-color:#8CA387;
+    background-color:#ffccc7;
     text-align:left;
-    padding: 2px;
+    padding: 20px;
     color:#125353;
-    border: 6px dotted #C3F0BB;
+    border: 6px dotted #125353;
     
 }
 
@@ -73,7 +69,7 @@ section#Hobbies {
     color: #125353;
     font-style:oblique;
     font-weight:bold;
-    background-color: #ffccc7;
+    background-color: #67A3A3;
     padding:10px;
     text-align: center;
     
@@ -113,11 +109,12 @@ ul li{
 #gallery{
     border:2px solid #A3EFF0;
     background-color:#125353;
-    border: 6px dotted #ffccc7;
+    border: 6px dotted #C3F0BB;
 }
 
 #gallery img{
     Max-width:100%;
+    border: 5px solid #A3EFF0;
 }
 
 #gallery img p
@@ -128,12 +125,13 @@ ul li{
 }
 #gallery figcaption {
     text-align: center;
+    font-size: 2
 }
 
 /* Video */
 #Movie {
-    background-color:#8CA387;
-    border:7px dotted #C3F0BB;
+    background-color:#ffccc7;
+    border:7px dotted #125353;
     align-items:center;
     padding-bottom: 20px;
     columns: 2;
@@ -199,6 +197,11 @@ ul li{
     border-bottom-right-radius:.2em;
     clear:both;
  }
+ #lit img{
+    border:5px solid #A3EFF0;
+    max-width:100%;
+ }
+
 
  /* Contact Form */
  #formelements {
@@ -265,11 +268,14 @@ ul li{
 
 /* Tablet Size */
 @media screen and (min-width: 40em) {
+    #lit{
+        text-align:center;
+    }
+    
     figure{
         display:grid;
         grid-template-columns: 2fr 1fr;
     }
-
     figcaption{
         display: flex;
         justify-content: center;
@@ -286,6 +292,10 @@ ul li{
     #lit div {
        max-width:100%;
        columns: 20rem; 
+    }
+    #lit img{
+        width:330px;
+
     }
 
     #movie {
@@ -315,5 +325,8 @@ ul li{
     figure {
         display: block;
         font-size: 30pt;
+    }
+    #lit img{
+        width:400px;
     }
 }

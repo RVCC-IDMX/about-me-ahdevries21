@@ -70,6 +70,17 @@ main {
     color:#ffccc7;
     background-color:#125353; 
 }
+.checkButton{
+    font-size:30px;
+    color:#ffccc7;
+    float:right;
+    line-height:80px;
+    margin-right:0;
+    cursor:pointer;
+}
+.myCheckbox{
+    display:none;
+}
 
 /* media query for non-mobile nav bar min-width set to width of nav elements such that no text wraps */
 @media screen and (min-width:60rem){
@@ -86,5 +97,35 @@ main {
         display: flex;
         justify-content: space-between;
     }
+    .checkButton{
+        display:none;
+    }
 }
+@media Screen and (max-width:858px){
+    
+    .checkButton{
+        display:block;
+    }
+    .navbar ul{
+        position:initial;
+        width:30%;
+        height:0vh;
+        top:10px;
+        text-align:center;
+        transition:ease-in 2s;
+        display:inline-table
+    }
+    .navbar ul li{
+        display:block;
+        margin:50px 0px;
+        line-height:30px;
+    }
+    .navbar-links{
+        font-size:20px;
+    }
+    .myCheckbox:checked ~ .navbar-links{
+        left:10;
+    }
+}
+
 
